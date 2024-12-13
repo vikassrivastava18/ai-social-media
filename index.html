@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>AI In Social Media</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/kanban.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper-->
+	<div id="wrapper">
+
+		<!-- Nav -->
+		<nav id="nav" style="background-color: #fff;">
+			<a href="#" class=""><img src="images/icons8-home-page-64.png" alt="" width="48"></a>
+			<a href="#work" class=""><img src="images/icons8-study-48.png" alt=""></a>
+			<a href="#contact" class=""><img src="images/icons8-quiz-48.png" alt=""></a>
+			<a href="#summary" class=""><img src="images/icons8-summary-list-64.png" alt="" width="48"></a>
+
+
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="home" class="panel" style="text-align: center;">
+				<header style="background-color: #fff;">
+					<h1>Artifical Intelligence</h1>
+					<p style="margin-left: 20px;">Impact On Social Media</p>
+				</header>
+				<a href="#work" class="jumplink pic">
+					<!-- <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span> -->
+					<img src="images/ai-assistant.png" alt="" style="max-width: 70%;">
+				</a>
+			</article>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h2>The AI Revolution</h2>
+				</header>
+				<p>
+					AI is all around us, powering the devices and services we use every day. From the smartphone in your
+					pocket to the internet you browse, AI drives countless features—like YouTube recommendations,
+					Facebook friend suggestions, and auto text completion on platforms like Twitter. Its influence
+					continues to grow, transforming the way we interact with technology.
+					<br>
+				</p>
+				<h3>Positive Impact </h3>
+				<p>
+					<img src="assets/css/images/social-media-bg.svg" width="500" style="display:block;">
+					<b>Networking:</b> AI helps connect you with people and groups that share your interests, making it
+					easier
+					to find friends or communities you’ll enjoy. It also translates messages in different languages so
+					you can chat with people from all over the world.
+					<br>
+
+
+					<b>Learning:</b> AI helps social media suggest interesting posts, videos, or facts that match what
+					you care
+					about. It also works to stop fake news, so the info you see is more trustworthy.
+				</p>
+
+				<h3>Negative Impact</h3>
+				<p>
+					<img src="images/fake.png" alt="" width="500" style="display:block;">
+					<b>Impersonation:</b> AI-powered tools can create fake profiles that look and act like real people.
+					These
+					accounts might pretend to be someone you know or a celebrity, tricking others into sharing personal
+					information or spreading scams.
+					<br>
+					<b>Fake News:</b> AI can create and spread false information quickly, like fake stories, photos, or
+					videos
+					that seem real. This makes it harder for people to know what’s true and what’s not, leading to
+					confusion or even panic.
+					<br>
+					<b>Manipulation:</b> AI can be used to influence people’s opinions or decisions without them
+					realizing it.
+					For example, it might show specific posts or ads to change how someone feels about a topic, product,
+					or even an election.
+				</p>
+				<p>
+					<b>Barak Obama</b> is an brilliant orator. Using hours of his publicly available video & audio, University Of Washington Researchers, created a FAKE video. Check below. <br>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/AmUC4m6w1wo">
+					</iframe>					
+					<p>Such manipulated content can have serious impact. Just imagine a manipulated video of your favorite polictical leader circulated just before election, causing him/her to lose the election.</p>
+				</p>
+
+			</article>
+
+			<!-- Contact -->
+			<article id="contact" class="panel" style="margin-bottom: 50px;">
+				<header>
+					<h2>Drag & Drop For Fact Check</h2>
+				</header>
+				<main>
+					<div class="wrapper">
+
+						<div class="container">
+							<h3>
+								<i>Drag the white space</i>
+							</h3>
+							<div class="cards-wrapper" id="todo" ondragover="dragoverHandler(event)">
+								<card draggable="true" id="0" ondragstart="dragstartHandler(event)"
+									ondragend="dragendHandler(event)">
+									<img src="images/lincon.png" alt="" width="200">
+								</card>
+								<card draggable="true" id="1" ondragstart="dragstartHandler(event)"
+									ondragend="dragendHandler(event)">
+									<img src="images/fake_lincon.png" alt="" width="200">
+								</card>
+								<card draggable="true" id="2" ondragstart="dragstartHandler(event)"
+									ondragend="dragendHandler(event)">
+									<img src="images/bush.png" alt="" width="200">
+								</card>
+								<card draggable="true" id="3" ondragstart="dragstartHandler(event)"
+									ondragend="dragendHandler(event)">
+									<img src="images/fake_bush.png" alt="" width="200">
+								</card>
+							</div>
+						</div>
+
+						<div class="container">
+							<h3>
+								REAL
+							</h3>
+							<div class="cards-wrapper" id="done" ondragover="dragoverHandler(event)">
+							</div>
+						</div>
+
+						<div class="container">
+							<h3>
+								FAKE
+							</h3>
+							<div class="cards-wrapper" id="approved" ondragover="dragoverHandler(event)">
+							</div>
+						</div>
+					</div>
+				</main>
+				<br>
+				<section>
+					<h2>What do these images suggest? </h2>
+					<h4>Hover to see result.</h4>
+					<br>
+					<div class="row">
+						
+						<div class="col-6-medium col-12-small">
+							<!-- <a href="#" class="image fit"><img src="images/fake.png" alt=""></a> -->
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<iframe src="https://www.youtube.com/embed/AmUC4m6w1wo">
+										</iframe>
+									</div>
+									<div class="flip-box-back">
+										<h2 style="color: #fff;">Impersonation</h2>
+										<p>The video impersonates with fake audio.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-6-medium col-12-small">
+							<!-- <a href="#" class="image fit"><img src="images/twitter.png" alt=""></a> -->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="images/context.png" alt="Paris"
+											style="width:300px;height:200px">
+									</div>
+									<div class="flip-box-back">
+										<h2 style="color: #fff;">False Context</h2>
+										<p>The top image gives a false impression with the person'e gesture, without giving full context.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-6-medium col-12-small">
+							<!-- <a href="#" class="image fit"><img src="images/propaganda.png" alt=""></a> -->
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="images/imposter.png" alt="Paris" style="width:300px; height:200px">
+									</div>
+									<div class="flip-box-back">
+										<h2 style="color: #fff;">Imposter Content</h2>
+										<p>The content is partly true, partly fake.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				
+					</div>
+				</section>
+			</article>
+
+			<!-- Me -->
+			<article id="summary" class="panel" style="">
+				<header style="background-color: #fff;">
+					<h2>
+						How To Best Use Social Media
+					</h2>
+
+				</header>
+				<p>
+				<ul>
+					<li>
+						Be Smart About Information: Always double-check facts before believing or sharing posts.
+						Use reliable sources to confirm what you see online to avoid spreading fake news.
+
+					</li>
+
+					<li>
+
+						Protect Yourself: Be cautious with messages or profiles that seem suspicious, especially
+						if they ask for personal information. Report and block fake accounts or scams.
+
+					</li>
+
+					<li>
+						Use It for Growth: Follow pages, groups, or accounts that share educational, inspiring,
+						or skill-building content. Social media can be a great tool for learning and staying
+						updated on topics you care about.
+					</li>
+					<li>
+						Engage Positively: Connect with supportive communities and people who encourage healthy
+						discussions. Avoid falling into arguments or harmful trends.
+					</li>
+					<li>
+						By staying alert and focused, you can turn social media into a powerful tool for
+						learning, connecting, and growing while avoiding the traps of fake news and
+						manipulation.
+					</li>
+				</ul>
+				</p>
+			</article>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>Made by Vikas</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/kanban.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/kanban.js"></script>
+</body>
+
+</html>
